@@ -227,3 +227,14 @@ a {
     font-weight: 500;
     font-size: 15px;
 }
+
+/* FOOTER*/
+
+.footer-container {
+    height: 10vh;
+    color: var(--hero-main-color);
+    background-color: var(--dark-background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
