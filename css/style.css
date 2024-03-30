@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --dark-background-color: #1f2937;
+  --hero-main-color: #f9faf8;
+  --hero-secondary-text: #e5e7eb;
+  --hero-logo-text: #f9faf8;
+
+  --button-color-callToAction: #3882f6;
+  --information-text-color: #1f2937;
+  --quote-section-background-color: #e5e7eb;
+  --quote-text-color: #1f2937;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-container {
+  background-color: var(--dark-background-color);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.links-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  width: 1200px;
+  max-width: 1200px;
+  min-width: 1000px;
+}
+
+.header-container .links-container .logo {
+  color: var(--hero-logo-text);
+  font-size: 24px;
+  font-weight: 600;
+}
+.header-container .links-container .links nav {
+  display: flex;
+  gap: 30px;
+}
+
+.header-container .links-container .links nav a {
+  color: var(--hero-secondary-text);
+  font-size: 18px;
+}
+
+.header-container .hero-container {
+  height: 50vh;
+  width: 1200px;
+  max-width: 1200px;
+  min-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.header-container .hero-container .txt-left h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--hero-main-color);
+}
+
+.header-container .hero-container .txt-left p {
+  font-size: 18px;
+  color: var(--hero-secondary-text);
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.header-container .hero-container .txt-left button {
+  background-color: var(--button-color-callToAction);
+  color: #ffffff;
+  height: 40px;
+  width: 150px;
+  border-radius: 15px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+}
